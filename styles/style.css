@@ -1,0 +1,16 @@
+/* Estilos index*/
+body{
+    padding: 0%;
+    margin: 0%;
+}
+.imgbanner{    
+    width: 100%;
+    height: 400px;
+}
+.imglogo{
+    width: 100px;
+    height: 100px;
+}
+.subtitle{
+    text-align: center;
+}
