@@ -1,16 +1,46 @@
 /* Estilos index*/
-body{
+*{
     padding: 0%;
     margin: 0%;
+    box-sizing: border-box;
 }
-.imgbanner{    
+.cbanner{
+  border: 0px 0px 0px 0px;
+  height: 380px;
+}
+.barra{
+    height: 47px;
+}
+.imgbanner{
     width: 100%;
-    height: 400px;
-}
-.imglogo{
-    width: 100px;
-    height: 100px;
+    height: 380px   ;
+    }
+h1{
+    display: inline;
+    padding: auto;
+    position: relative;
+    bottom: 395px;
+    color: yellow;
+    font-size: 40px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
 }
 .subtitle{
+    background-color: black; 
+    color: white ;
     text-align: center;
+    padding: 10px;
+    margin-bottom: 0%;
+}
+.imglogo{
+    position: relative;
+    width: 15%;
+    height: 110px;
+    bottom: 90px;
+    left: 75%;
+}
+nav a{
+    display: block;
+    text-decoration: none;
+    padding: 20px 5px 20px 5px;
 }
