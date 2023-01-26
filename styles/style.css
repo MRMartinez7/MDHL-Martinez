@@ -4,6 +4,66 @@
     box-sizing: border-box;
     font-family: cursive;
 }
-main div {
+
+
+
+/*style header*/
+#title{
+    color: black;
+}
+header img{
+    width: 100%;
+    height: 400px;
+    margin: 0px 0px;
+    padding: 0px 0px    ;
+}
+header h1{
+    position: absolute;
+    top: 0%;
+}
+
+
+/*section*/
+section h2{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 0.5%;
+}
+section div{
+    align-content: center;
+    justify-content: center;
+}
+.imglogo{
+    position: relative;
+    left: 73%;
+}
+div img{
+    position: absolute;
+    width: 110px;
+    bottom: -10px;
+}
+
+
+/*style main - nav - div*/
+main div{
+    padding-top: 20px;
     display: inline-block;
+    position: absolute;
+}
+nav a{
+    display: block;
+    padding: 20px 20px 20px 15px;
+    color: blue;
+}
+.btn:hover{
+    color: black;
+}
+.txt {
+    left: 20%;
+    padding: 40px 0px;
+}
+main div p{
+    left: 5px;
+    padding-bottom: 10px;
 }
