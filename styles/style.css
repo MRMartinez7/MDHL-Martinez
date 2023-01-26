@@ -1,81 +1,9 @@
-/* Estilos index*/
 *{
-    font-family:cursive;
-    padding: 0%;
-    margin: 0%;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
+    font-family: cursive;
 }
-.cbanner{
-  border: 0px 0px 0px 0px;
-  height: 380px;
-}
-.barra{
-    height: 47px;
-}
-.imgbanner{
-    width: 100%;
-    height: 380px   ;
-    }
-h1{
-    display: inline;
-    padding: auto;
-    position: relative;
-    bottom: 395px;
-    color: yellow;
-    font-size: 40px;
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    
-}
-.subtitle{
-    background-color: black; 
-    color: white ;
-    text-align: center;
-    padding: 10px;
-    margin-bottom: 0%;
-}
-.imglogo{
-    position: relative;
-    width: 15%;
-    height: 110px;
-    bottom: 90px;
-    left: 75%;
-}
-nav{
-    padding: 20px;
-}
-article{
-    padding: 20px;
-}
-nav a{
-    display: block;
-    color: blue;
-    padding: 20px 5px 20px 20px;
-}
-main{
-    display: flex;
-}
-.article{
-    padding: 20px 30px 20px 75px;
-}
-.article p{
-    padding: 1px 3px 5px 20px;
-}
-.aboutme{
-    width: 70%;
-    padding: 20px;
-}
-.aboutme h3{
-    font-weight: bold;
-    padding: 20px 1px 5px 20px;
-}
-.aboutme p {
-    text-align: start;
-    padding: 1px 1px 5px 30px;
-}
-.contacme{
-    padding: 40px;
-    text-align: start;
-}
-.contacme p {
-    padding-top: 10px;
+main div {
+    display: inline-block;
 }
