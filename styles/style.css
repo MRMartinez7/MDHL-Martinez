@@ -1,69 +1,144 @@
 *{
-    margin: 0px;
-    padding: 0px;
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
-    font-family: cursive;
-}
-
-
-
-/*style header*/
-#title{
-    color: black;
-}
-header img{
-    width: 100%;
-    height: 400px;
-    margin: 0px 0px;
-    padding: 0px 0px    ;
-}
-header h1{
-    position: absolute;
-    top: 0%;
-}
-
-
-/*section*/
-section h2{
-    background-color: black;
-    color: white;
+    }
+h1{
+    font-family: 'Rubik Vinyl', cursive;
     text-align: center;
-    padding: 0.5%;
+    font-size: xxx-large;    
+    color: black;
+    padding: 30px 0px 30px;
 }
-section div{
-    align-content: center;
-    justify-content: center;
-}
-.imglogo{
-    position: relative;
-    left: 73%;
-}
-div img{
-    position: absolute;
-    width: 110px;
-    bottom: -10px;
-}
-
-
-/*style main - nav - div*/
-main div{
-    padding-top: 20px;
-    display: inline-block;
-    position: absolute;
+nav{
+ width: 100%;        
+padding-top: 20px;
+padding-bottom: 30px;
+display: flex;
+flex-wrap: wrap;
+justify-content: flex-start;
 }
 nav a{
-    display: block;
-    padding: 20px 20px 20px 15px;
-    color: blue;
+    padding: 8px 8px 8px 8px;
+    margin: 5px 10px 5px 10px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: x-large;    
+    border-radius: 10%;
+    border: 2px solid;
+    
 }
-.btn:hover{
+.subtitle{
+    display: flex;
+    justify-content: end;
+}
+h2{
+    width: 76%;
+    margin-right: 5%;
+    color: white;
+    text-align: center;
+    background-color: black;
+}
+main{
+    display: flex;
+}
+.container-logo{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    display: flex;
+    width: 150px;
+    justify-content: center;
+    position: relative;
+    top: 150px  ;
+}
+
+
+
+
+/*CONTENEDORES DE TEXTOS*/
+
+.container-text1{
+    background-image: url("../assets/hockey_1.jpg");
+    background-size: cover;
+    background-position: center ;
+    width: 80%;
+    height: 100vh;
+    margin-right: 5%;
+    margin-bottom: 3px;
+    padding: 30px 100px 20px 50px;  
+    border-radius: 2%;   
+}
+
+.container-text2{
+    width: 80%;
+    height: 100vh;
+    background-image: url("../assets/hockey_2.jpg");
+    background-size: cover;
+    background-position: center;
+    margin-right: 5%;
+    margin-bottom: 3px;
+    padding: 30px 100px 20px 50px;
+    text-align: start;
+    border-radius: 2%;
+}
+
+
+.container-text3{
+        width: 80%;
+        height: 100vh;
+        background-image: url("../assets/hockey_3.jpg");
+        background-size: cover;
+        background-position: center;
+        margin-right: 5%;
+        margin-bottom: 3px;
+        color: white;
+        padding: 30px 100px 20px 50px;
+        text-align: start;
+        border-radius: 2%;
+}
+
+.container-text4{
+    width: 80%;
+    height: 100vh;
+    background-image: url("../assets/design1_image1.jpg");
+    background-size: cover;
+    margin-right: 5%;
+    margin-bottom: 3px;
+    color: white;
+    padding: 30px 100px 20px 50px;
+    text-align: start;
+    border-radius: 2%;
+}
+
+.container-text5{
+    width: 80%;
+    height: auto;
+    background-image: url("../assets/design1_image2.jpg");
+    background-size: cover;
+    margin-right: 5%;
+    margin-bottom: 3px;
     color: black;
+    padding: 30px 100px 20px 50px;
+    border-radius: 2%;
 }
-.txt {
-    left: 20%;
-    padding: 40px 0px;
+.container-text5 h3 {
+    text-align: center;
 }
-main div p{
-    left: 5px;
-    padding-bottom: 10px;
+.p{
+    text-align: center;
+}
+
+/*footer*/
+footer {
+    background: rgb(74,74,74);
+    background: linear-gradient(90deg, rgba(74,74,74,0.6208858543417367) 0%, rgba(71,71,71,1) 75%, rgba(0,0,0,1) 100%);
+    background-color: rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: black;
+    font-size:  16px;
+    box-shadow: -2px 2px 5px gray;
 }
