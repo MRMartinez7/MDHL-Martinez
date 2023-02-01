@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    }
+}
 h1{
     font-family: 'Rubik Vinyl', cursive;
     text-align: center;
@@ -54,76 +54,106 @@ main{
     justify-content: center;
     position: relative;
     top: 150px  ;
+    object-fit: cover;
 }
 
 
 
 
 /*CONTENEDORES DE TEXTOS*/
-
-.container-text1{
-    background-image: url("../assets/hockey_1.jpg");
-    background-size: cover;
-    background-position: center ;
+article{
+    width: 80%;
+    height: 100vh;   
+    margin-bottom: 3px;  
+}
+.bg img{
+    width: 75%;
+    height: 100vh;
+    position: absolute;
+    opacity: 0.5;
+    object-fit: cover;
+}
+.container-text1{   
     width: 80%;
     height: 100vh;
     margin-right: 5%;
     margin-bottom: 3px;
     padding: 30px 100px 20px 50px;  
     border-radius: 2%;   
+    color: black;
+    position: relative;
 }
 
 .container-text2{
     width: 80%;
     height: 100vh;
-    background-image: url("../assets/hockey_2.jpg");
-    background-size: cover;
-    background-position: center;
     margin-right: 5%;
     margin-bottom: 3px;
     padding: 30px 100px 20px 50px;
     text-align: start;
     border-radius: 2%;
+    color: black;
+    position: relative;
 }
 
 
 .container-text3{
         width: 80%;
-        height: 100vh;
-        background-image: url("../assets/hockey_3.jpg");
-        background-size: cover;
-        background-position: center;
+        height: 100vh;    
         margin-right: 5%;
         margin-bottom: 3px;
         color: white;
         padding: 30px 100px 20px 50px;
         text-align: start;
         border-radius: 2%;
+        color: black;
+        position: relative;
 }
 
 .container-text4{
     width: 80%;
     height: 100vh;
-    background-image: url("../assets/design1_image1.jpg");
-    background-size: cover;
     margin-right: 5%;
     margin-bottom: 3px;
-    color: white;
-    padding: 30px 100px 20px 50px;
+    padding: 30px 100px 20px 180px;
     text-align: start;
     border-radius: 2%;
+    color: black;
+    position: relative;
+}
+/*------------------TABLE GAME-----------------------------*/
+.boxtitle{
+    font-weight: bold;
+    font-size: x-large;
+    text-align: center;
+}
+table{
+    text-align: center;
+     list-style-type: none;
+     font-size: large;
+}
+th{
+    padding: 10px 40px;
+}
+td {
+    padding: 5px;
+}
+.inf1, .inf2 {
+    display: inline;
+}
+.inf1 {
+    padding-right: 20%;
 }
 
 .container-text5{
     width: 80%;
-    height: auto;
-    background-image: url("../assets/design1_image2.jpg");
-    background-size: cover;
+    height: 100vh;    
     margin-right: 5%;
     margin-bottom: 3px;
     color: black;
-    padding: 30px 100px 20px 50px;
+    padding: 30px 230px 20px 120px;
     border-radius: 2%;
+    position: relative;
 }
 .container-text5 h3 {
     text-align: center;
