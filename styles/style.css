@@ -5,7 +5,11 @@
     font-family: cursive;
 }
 
-/*                HEADER            */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
 
 h1 {
     text-align: center;
@@ -18,8 +22,6 @@ h1 a {
     padding: 30px 0px 30px;
     text-decoration: none;
 }
-
-/*             NAV               */
 
 nav {
     width: 100%;
@@ -44,9 +46,8 @@ nav a {
     border-radius: 10%;
     border: 2px solid;
     box-shadow: 3px 3px rgba(0, 0, 0, 0.5);
-}
 
-/*       subtitle                */
+}
 
 .subtitle {
     display: flex;
@@ -61,127 +62,54 @@ h2 {
 }
 
 main {
+    border: solid 4px red;
+}
+
+.container-flex {
     display: flex;
+    border: solid 2px blue;
 }
 
-.container-logo {
-    width: 20%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-}
-
-.logo {
-    display: flex;
-    width: 150px;
-    justify-content: center;
-    position: relative;
-    top: 150px;
-    object-fit: cover;
-}
-
-.container {
-    width: 100vh;
-    position: relative;
-}
-
-article img {
-    position: relative;
-    width: 100%;
+.container-text2 {
+    border: solid 2px green;
 }
 
 .bg {
-    width: 100%;
+    height: 100%;
+    border: solid 2px yellow;
     position: absolute;
-    opacity: 0.35;
+    opacity: 0.4;
     top: 0;
 }
 
-container-text1 {
-    height: fit-content;
-    padding: 30px 0px 20px 50px;
-}
-
-container-text2 {
-    height: fit-content;
-    padding: 30px 0px 20px 50px;
-}
-
-container-text3 {
-    height: fit-content;
-    padding: 30px 0px 20px 50px;
-}
-
-container-text4 {
-    width: 90%;
-    padding: 30px 0px 20px 50px;
-    height: fit-content;
+.container {
+    width: 100%;
+    border: solid 4px aqua;
     position: relative;
 }
 
-container-text5 {
-    padding: 30px 0px 20px 50px;
-    width: 90%;
-    height: fit-content;
+article div img {
+    object-fit: cover;
+    width: 100%;
+    height: 90%;
+}
+
+.container-logo {
+    width: 30%;
+    height: 100vh;
     position: relative;
 }
 
-
-
-/*------------------TABLE GAME-----------------------------*/
-
-.boxtitle {
-    font-weight: bold;
-    font-size: x-large;
-    text-align: center;
-}
-
-table {
-    text-align: center;
-    list-style-type: none;
-    font-size: large;
-}
-
-th {
-    padding: 10px 40px;
-}
-
-td {
-    padding: 5px;
-}
-
-.inf1,
-.inf2 {
-    display: inline;
-}
-
-.inf1 {
-    padding-right: 20%;
-}
-
-/*footer*/
-.foo {
-    width: 100%;
-    background: rgb(74, 74, 74);
-    background: linear-gradient(90deg, rgba(74, 74, 74, 0.6208858543417367) 0%, rgba(71, 71, 71, 1) 75%, rgba(0, 0, 0, 1) 100%);
-    background-color: rgba(0, 0, 0, 0.1);
-    text-align: center;
-    color: black;
-    font-size: 16px;
-    box-shadow: -2px 2px 5px gray;
+.logo {
+    width: 90%;
     position: absolute;
-    bottom: 0%;
 }
 
-.foo1 {
-    width: 100%;
-    background: rgb(74, 74, 74);
-    background: linear-gradient(90deg, rgba(74, 74, 74, 0.6208858543417367) 0%, rgba(71, 71, 71, 1) 75%, rgba(0, 0, 0, 1) 100%);
-    background-color: rgba(0, 0, 0, 0.1);
+.container-text {
+    padding: 30px;
+}
+
+footer {
     text-align: center;
-    color: black;
-    font-size: 16px;
-    box-shadow: -2px 2px 5px gray;
-    position: absolute;
-    margin-top: 0;
+    background-color: rgba(66, 60, 60, 0.4);
 }
